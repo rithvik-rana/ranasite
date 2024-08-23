@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0%;
+        }
+        .img-scene{
+            height: 100%;
+            width: 100%;
+
+        }
+        .child{
+            background-color:rgb(13, 9, 2);
+            width: 500px;
+            height: 450px;
+            position: absolute;
+            padding: 1px;
+            /*top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);*/
+        }
+        .parent{
+            background-color: blanchedalmond;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        
+        
+        .title{
+            background-color: rgb(241, 187, 106);
+            height: 20%;
+        
+        }
+        .text1{
+            font-size: 50px;
+            text-align: center;
+            font: bold;
+        }
+        .text2{
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+        }
+        .login{
+            background-color: rgb(251, 242, 228);
+            height: 65%;
+            display: flex;
+            padding: 5px;
+        }
+        .footer{
+            background-color: rgb(255, 161, 133);
+            height: 12%;
+        }
+        .left-panel{
+            background-color: rgb(189, 252, 164);
+            height: 100%;
+            width: 50%;
+
+        }
+        .right-panel{
+            background-color: rgb(125, 244, 240);
+            height: 100%;
+            width: 50%;
+
+        }
+        .login_b{
+            margin-left: 170px;
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border-radius: 100%;
+            border-style: groove;
+        }
+        .login_b:hover{
+            background-color: beige;
+            color: black;
+            
+
+        }
+        .line{
+            background-color: black;
+            width: 1px;
+        }
+        .google{
+            padding: 7px;
+            background-color: rgb(250, 65, 65);
+            color: white;
+            margin-left: 30PX;
+            margin-top: 70px;
+            padding-right: 14px;
+            padding-left: 15px;
+            border-radius: 18px;
+            border-style: dashed;
+            
+        }
+        .facebook{
+            padding: 7px;
+            background-color: rgb(5, 49, 244);
+            color: white;
+            margin-left: 30PX;
+            margin-top: 10px;
+            position: relative;
+            border-radius: 18px;
+            border-style: dashed;
+        }
+        .google:hover{
+            background-color: rgb(246, 129, 129);
+            color: rgb(255, 255, 255);
+        }
+        .facebook:hover{
+            background-color: rgb(129, 172, 246);
+            color: rgb(255, 255, 255);
+        }
+        .h1{
+            color: rgba(0, 55, 255, 0.645);
+            font: bold;
+            font-size: 11px;
+            margin-left: 34px;
+            margin-top: 20px;
+        }
+        .h2{
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        .one{
+            padding: 5px;
+            border: none;
+            margin-left: 20px;
+            margin-top: 10px;
+            padding-right: 40px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <img class="img-scene" src="img/scene.JPG" alt="my scene">
+
+        <div class="child">
+            <div class="title">
+                <div class="text1">ᖇᗩᑎᗩ.ᑕOᗰ</div>
+                <div class="text2">The final destination to satisfy your running mind</div>
+            </div>
+            <div class="login">
+                <div class="left-panel">
+                    <button class="google"> LOGIN WITH GOOGLE   </button>
+                    <button class="facebook">LOGIN WITH FACEBOOK</button>
+                    <H6 class="h1">CONTINUE WITH EMAIL →</H6>
+                </div>
+                    <div class="line"></div>
+                <div class="right-panel">
+                    <div class="h2">Login</div>
+                    <input class="one" placeholder="Email">
+                    <input class="one" placeholder="Password">  
+                    <button class="login_b">Login</button>
+                    
+                </div>
+                    
+                
+            </div>
+            <div class="footer"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
